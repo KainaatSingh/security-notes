@@ -8,6 +8,6 @@
     1. run ```ssh-keygen``` on machine A
     2. Do one of the following:
         1. copy the contents of ```~/.ssh/id_rsa.pub``` of machine A to ```~/.ssh/authorized_keys``` of machine B. 
-        2. run command on machine A: ```ssh-copy-id``` <ip of machine B>
+        2. run command on machine A: ```ssh-copy-id <ip of machine B>```
     3. Now try logging in from machine A to machine B via SSH
     4. Do the above steps for machine B to setup passwordless connection from machine B to machine A.
