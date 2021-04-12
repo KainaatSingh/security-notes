@@ -2,8 +2,8 @@
 
 1. Make sure the memory allocation to both the VMs is appropriate enough that you can run 2 VMs at the same time.
 2. Run the following commands on both the VMs:
-        * sudo apt-get update
-        * sudo apt-get upgrade
+       1. ```sudo apt-get update```
+       2. ```sudo apt-get upgrade```
 3. Generate passwordless login on each machine for the other machine.
         * run $ssh-keygen on machine A
         * Do one of the following:
